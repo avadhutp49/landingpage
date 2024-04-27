@@ -2,29 +2,29 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    title: 'The uTalk App',
+    url: process.env.NEXT_PUBLIC_UTALK_URL,
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    title: 'The uCoLab Canvas',
+    url: process.env.NEXT_PUBLIC_UCOLAB_URL,
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    title: 'The uTechMedia',
+    url: process.env.NEXT_PUBLIC_UTECHMEDIA_URL,
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
-  },
-  {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    title: 'The Synopsizer',
+    url: process.env.NEXT_PUBLIC_SYNOPSIZER_URL,
   },
 ];
+
 
 export const startingFeatures = [
   'Find a world that suits you and you want to enter',
