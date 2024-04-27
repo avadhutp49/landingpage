@@ -34,7 +34,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick, url }) => 
           />
         </div>
         <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
-          <a href={url} target="_blank"> Click Here to Enter TechVoyage</a>
+          <a href={url} target="_blank" rel="noreferrer"> Click Here to Enter TechVoyage</a>
         </p>
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
           {title}
