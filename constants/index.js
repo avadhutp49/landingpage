@@ -1,19 +1,19 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
+    imgUrl: '/task01.jpg',
     title: 'The uTalk App',
     url: process.env.NEXT_PUBLIC_UTALK_URL,
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
+    imgUrl: '/app2.jpg',
     title: 'The uCoLab Canvas',
     url: process.env.NEXT_PUBLIC_UCOLAB_URL,
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
+    imgUrl: '/app3.jpg',
     title: 'The uTechMedia',
     url: process.env.NEXT_PUBLIC_UTECHMEDIA_URL,
   },
